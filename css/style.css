@@ -1,0 +1,307 @@
+body {
+  font-family: "Arial", serif;
+  font-size: 12px;
+  line-height: 24px;
+  background-color: #fdfdff;
+}
+
+.container {
+  max-width: 480px;
+  min-height: 768px;
+  margin: 0 auto;
+  background-color: rgb(91, 117, 131);
+}
+
+.infa-container {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.small-container {
+  max-width: 440px;
+  margin: 0 auto;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.hero {
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: space-around;
+}
+
+.hero div {
+  width: 130px;
+  height: 50px;
+  background-color: rgb(155, 191, 210);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.hero a {
+  color: rgb(91, 117, 131);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.clock {
+  border-radius: 20px;
+  padding: 25px;
+  background-color: rgb(46, 65, 75);
+  margin-bottom: 50px;
+}
+
+.clock h2 {
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  margin: 0;
+}
+
+.clock h1 {
+  margin: 0;
+  font-size: 34px;
+  font-weight: 700;
+  color: white;
+}
+
+.clock button {
+  width: 100px;
+  height: 50px;
+  margin-top: 20px;
+  text-align: center;
+  border: none;
+  color: rgb(46, 65, 75);
+  background-color: rgb(196, 88, 0);
+  border-radius: 15px;
+}
+.clock-con {
+ display: flex;
+ margin-top: 10px;
+}
+
+.text-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-title h2 {
+  color: white;
+}
+
+.clock-card {
+  border-radius: 10px;
+  max-width: 320px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  background: linear-gradient(to right bottom, gray, rgb(18, 18, 18));
+  padding: 15px;
+}
+
+
+.price {
+  color: rgb(255, 237, 136);
+  font-weight: 500;
+}
+
+.div-img {
+  margin-left: 60px;
+  display: flex;
+  align-items: top;
+}
+
+.clock-card-like {
+  margin-left: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+.New2022 {
+  margin-bottom: 50px;
+}
+
+.New2022-con {
+  display: flex;
+  justify-content: space-between;
+}
+.New2022-card {
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: white;
+  padding: 15px 30px;
+  color: rgb(91, 117, 131);
+}
+
+.New2022-card  p{
+  color:rgb(91, 117, 131);
+  font-size: 16px;
+  text-align: center;
+}
+
+.New2022-card-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.New2022-card-text p{
+  font-size: 24px;
+  font-weight: 700;
+  color:rgb(91, 117, 131);
+}
+
+
+.New2022-card-text img{
+  height: 30px;
+  width: 30px;
+  margin-right: 0;
+} 
+
+.New2022 h2, p{
+  color: white;
+}
+
+.p-nike {
+  font-weight: 700;
+  margin: 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.infa-section {
+  text-align: center;
+}
+
+.cryjki {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.cryjok {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  border-radius: 50%;
+  background-color: rgb(91, 117, 131);
+}
+
+.cryjok-active {
+  background-color: rgb(46, 65, 75);
+}
+
+
+.Price-section {
+  padding: 30px;
+  background-color: rgb(46, 65, 75);
+  color: white;
+  padding-bottom: 0;
+  border-top-right-radius: 60px;
+  border-top-left-radius: 60px;
+}
+
+.Price-section h2 {
+  font-weight: 700;
+}
+
+.Price {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.Price-section ul{
+  margin: 0;
+  list-style: none;
+  display: flex;
+  column-gap: 30px;
+  padding: 0;
+}
+
+.Price-section li{
+  height: 30px;
+  width: 30px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  color: white;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+#w {
+  color: rgb(196, 88, 0);
+  border: 2px solid rgb(196, 88, 0);
+}
+
+.summary {
+  color: rgb(196, 88, 0);
+}
+
+.knopki {
+  display: flex;
+  justify-content: center;
+}
+
+.knopka1 {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  border-top-left-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.knopka1 p {
+  color:rgb(46, 65, 75);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.knopka2 {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(196, 88, 0);
+  border-top-right-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.knopka2 p {
+  color:rgb(46, 65, 75);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+details {
+  width: 50px;
+
+}
+
+summary::marker {
+  content: "";
+}
